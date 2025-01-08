@@ -1,0 +1,150 @@
+/*<uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 300 to 800 */
+.open-sans-normal { 
+  /* font-weight: <weight>; */
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* Shared styles start */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+.text-center{
+    text-align: center;
+}
+/* Shared styles close */
+
+/* header styles start */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* header styles close */
+
+/* Nav styles start */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav> ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+nav> ul> li{
+    margin-right: 50px;
+}
+nav> ul> li> a{
+    text-decoration: none;
+    font-size: 20px;
+}
+/* Nav styles close */
+
+/* banner styles start */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 585px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+}
+.banner-description{
+
+}
+.banner-profile-pic{
+    width: 584px;
+    height: 676px;
+}
+/* banner styles close */
+
+/* main styles start */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main> section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* main styles close */
+
+/* about styles start */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    font-size: 20px;
+}
+.item-description{
+    font-weight: bold;
+    font-size: 20px;
+}
+/* about styles close */
+/* skills style start */
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-title{
+
+}
+.skill-description{
+
+}
+/* skills style close */
