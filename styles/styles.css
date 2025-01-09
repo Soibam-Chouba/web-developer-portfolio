@@ -200,6 +200,7 @@ footer{
     padding: 130px 230px;
     display: flex;
     gap: 100px;
+    justify-content: center;
 }
 
 .footer-section-title{
